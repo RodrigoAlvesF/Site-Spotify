@@ -1,14 +1,11 @@
-html, body {
+html, body, #home {
     height: 100%;
-}
-
-#home {
-    height: 100%;
+    overflow-x: hidden;
 }
 
 body {
-    background: url(../imagens/capa.png),
-               url(../imagens/ruido.png),
+    background: url(../img/capa.png),
+               url(../img/ruido.png),
                linear-gradient(50deg, #ff4169,#7326f8);
     background-attachment: fixed;
     font-family: Helvetica,Arial,sans-serif;
@@ -70,6 +67,42 @@ nav.navbar-transparente {
     color: black;
 }
 
+/*Estrutura conteudos*/
+
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#serviços {
+    background: white;
+}
+
+#serviços h2, h3 {
+    color: #7c25f8;
+}
+
+#recursos{
+    color: #ffffff;
+}
+
+#recursos h2{
+    color: #ffffff;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+.albuns {
+    padding: 5px 0;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    padding: 80px;
+}
+
 /*tipografia*/
 
 h1{
@@ -77,6 +110,18 @@ h1{
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
 }
 
 /*Media*/
