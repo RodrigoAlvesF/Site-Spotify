@@ -4,7 +4,7 @@ html, body, #home {
 }
 
 body {
-    background: url(../img/capa.png),
+    background:url(../img/capa.png),
                url(../img/ruido.png),
                linear-gradient(50deg, #ff4169,#7326f8);
     background-attachment: fixed;
