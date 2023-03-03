@@ -30,6 +30,6 @@ Site para estudo focado em Bootstrap utilizado somente HTML + CSS
 
 <h3>Finalizado com a criação do rodapé e pequenos ajustes</h3>
 
-  <img src = "https://i.imgur.com/zKxAfic.jpg">
+  <img src = "https://i.imgur.com/hdaLg0E.jpg">
 <br>
 <br>
